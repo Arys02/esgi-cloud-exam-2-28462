@@ -1,9 +1,9 @@
 module.exports = {
   s3: {
-    accessKeyId: '', // TODO
-    secretAccessKey: '', // TODO
-    endpoint: '', // TODO
-    bucket: '', // TODO
+    accessKeyId: process.env.accessKey, // TODO
+    secretAccessKey: process.env.secretKey, // TODO
+    endpoint: process.env.endpoint, // TODO
+    bucket: process.env.bucket, // TODO
   },
   suffix: {
     small: '_small.jpg',
